@@ -3,10 +3,6 @@ import pandas as pd
 import numpy as np
 import pickle
 
-# Load saved model and scalers
-# model = joblib.load("xgb_model.pkl")
-# scaler_X = joblib.load("scaler_X.pkl")   # feature scaler
-# scaler_y = joblib.load("scaler_y.pkl")   # target scaler
 model = pickle.load(open('xgb_model.pkl', 'rb'))
 scaler_X = pickle.load(open('scaler_X.pkl', 'rb'))
 scaler_y = pickle.load(open('scaler_y.pkl', 'rb'))
@@ -65,4 +61,5 @@ if st.button("Predict Price"):
 
     # Show final prediction
     st.success(f"💰 Estimated Price: ₹ {prediction:,.2f} lakhs")
+
 
