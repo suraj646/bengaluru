@@ -3,6 +3,10 @@
 A Streamlit web app that predicts **house prices** based on location, area type, square footage, number of bathrooms, and BHK.  
 The model is trained using **XGBoost**, with feature/target scaling and target transformation applied.  
 
+## 🚀 Live Demo
+
+You can try the deployed app here:  
+👉 [Bengaluru House Price Prediction](https://bengaluru-laihsqzxenhrowfxj4pzy6.streamlit.app/)
 ---
 
 ## 🚀 Features
@@ -93,4 +97,4 @@ joblib
 
 👨‍💻 Author
 
-Developed by [Your Name]
+Developed by [Suraj]
