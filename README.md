@@ -77,6 +77,9 @@ This helps troubleshoot issues when predictions don’t look realistic.
 
 <img width="1189" height="809" alt="image" src="https://github.com/user-attachments/assets/e721c945-6247-41b7-b9f2-3796480c2f3d" />
 
+<img width="1548" height="826" alt="image" src="https://github.com/user-attachments/assets/edc50430-6d40-4bc4-9404-cc60eacbded6" />
+
+
 📌 Requirements
 
 Python 3.8+
